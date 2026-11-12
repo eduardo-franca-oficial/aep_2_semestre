@@ -86,7 +86,7 @@ O menu principal será apresentado no terminal, permitindo acessar as funcionali
 ## Estrutura do repositório
 
 ```text
-PSE-em-Acao/
+aep_2_semestre/
 │
 ├── README.md
 │
@@ -97,11 +97,10 @@ PSE-em-Acao/
 │   ├── Documento_Primeira_Entrega.pdf
 │   │
 │   ├── uml/
-│   │   ├── diagrama_casos_de_uso.png
+│   │   ├── diagrama_casos_de_uso.pdf
 │   │   └── descricao_casos_de_uso.pdf
 │   │
-│   ├── manual/
-│   │   └── manual_usuario_pse_em_acao.pdf
+│   ├── manual_usuario_pse_em_acao.pdf
 │   │
 │   └── evidencias/
 │       └── (capturas de tela da execução e dos testes)
