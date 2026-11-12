@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -90,34 +89,7 @@ void atualizarStatus();
 void gerarResumo();
 
 
-void lerTexto(char mensagem[], char destino[], int tamanho) {
-    int caractere;
-
-    while (1) {
-        printf("%s", mensagem);
-
-        if (fgets(destino, tamanho, stdin) == NULL) {
-            printf("Erro ao ler entrada. Tente novamente.\n");
-            clearerr(stdin);
-            continue;
-        }
-
-        if (strchr(destino, '\n') == NULL) {
-            while ((caractere = getchar()) != '\n' &&
-                   caractere != EOF) {
-            }
-        }
-
-        destino[strcspn(destino, "\n")] = '\0';
-
-        if (strlen(destino) == 0) {
-            printf("Este campo e obrigatorio!\n");
-            continue;
-        }
-
-        return;
-    }
-}
+void lerTexto(char mensagem[], char destino[], int tamanho);
 int lerInteiro(char mensagem[]);
 int codigoExiste(int codigo);
 
